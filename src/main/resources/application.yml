@@ -1,0 +1,16 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://admin:admin@cluster0.dmv5u.mongodb.net/spring?retryWrites=true&w=majority
+  batch:
+    job:
+      enabled: false
+  jpa:
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+
+server:
+  error:
+    include-stacktrace: never
